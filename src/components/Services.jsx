@@ -1,7 +1,8 @@
 
 import { motion } from "framer-motion";
-import { AiFillChrome } from "react-icons/ai";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+// import { AiFillChrome } from "react-icons/ai";
+import { FaDatabase, FaAndroid } from "react-icons/fa";
+import {SiKotlin} from "react-icons/si"
 
 const Services = () => {
   const animations = {
@@ -42,8 +43,9 @@ const Services = () => {
           whileInView={animations.whileInView}
           initial={animations.twoAndThree}
         >
-          <FaReact />
-          <span>React</span>
+          <SiKotlin />
+          <span>Kotlin</span>
+          
         </motion.div>
         <motion.div
           className="serviceBox3"
@@ -53,16 +55,17 @@ const Services = () => {
             delay: 0.2,
           }}
         >
-          <FaNodeJs />
-          <span>Node JS</span>
+          <FaDatabase />
+          <span>Firebase</span>
         </motion.div>
         <motion.div
           className="serviceBox4"
           whileInView={animations.whileInView}
           initial={animations.four}
         >
-          <AiFillChrome />
-          <span>Web Development</span>
+          <FaAndroid />
+          <span>Android Development</span>
+          
         </motion.div>
       </section>
     </div>

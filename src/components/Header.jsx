@@ -11,7 +11,7 @@ const Header = () => {
 const NavContent = ()=>{
   return(
       <>
-      <h2>Mansoor</h2>
+      <h2>Saqib</h2>
       <div>
           <a href="#home">Home</a>
           <a href="#work">Work</a>
@@ -20,7 +20,7 @@ const NavContent = ()=>{
           <a href="#testimonial">Testimonial</a>
           <a href="#contact">Contact</a>
       </div>
-      <a href="mailto:mkniazi.886@gmail.com">
+      <a href="mailto: m.saqib.personal007@gmail.com">
         <button>Email</button>
       </a>
       </>

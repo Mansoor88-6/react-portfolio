@@ -1,29 +1,36 @@
 
 {
-    "projects": [
-      
+    "projects": [  
       {
-        "date": "20/05/2022",
-        "title": "XCrypto",
-        "description": "This is a Crypto exchange site built with Chakra UI and React Router",
-        "url": "https://crypto-28imx1192-mkniazi886-gmailcom.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+        "date": "2/05/2023",
+        "title": "GPS",
+        "description": "This is state-of-the-art GPS live navigation application designed to provide users with a seamless and feature-rich experience for all their location-related needs",
+        "url": "https://play.google.com/store/apps/details?id=com.gps.map.navigation.live.map.gss",
+        "imgSrc": "src/assets/gps.jpg"
+      },
+      {
+        "date": "2/06/2023",
+        "title": "Document Scanner",
+        "description": "Comprehensive document scanner that leverages cutting-edge technologies and libraries such as Hilt, Room DB, OpenCV, and CamView to provide a robust and efficient solution for scanning",
+        "url": "https://play.google.com/store/apps/details?id=com.dream.scanner.sat",
+        "imgSrc": "src/assets/docuscanner.webp"
       },
   
-      
       {
-        "date": "10/08/2023",
-        "title": "PORTFOLIO",
-        "description": "This is my portfolio website, created using React, Framer-motion, Scss and Firebase",
-        "url": "/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+        "date": "15/09/2023",
+        "title": "Advance Calculators",
+        "description": "This is a versatile calculator application that goes above and beyond the basics.",
+        "url": "https://play.google.com/store/apps/details?id=com.calculator.tools.converter.sat",
+        "imgSrc": "src/assets/calculator.webp"
       },
+
       {
-        "date": "8/06/2023",
-        "title": "Task noting app",
-        "description": "This is a task noting app where you could take notes of your future task and mark them completed when they are done",
-        "url": "https://task-noting-app.vercel.app/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2017/03/27/13/17/notebook-2178656_1280.jpg"
+        "date": "15/09/2023",
+        "title": "Music Player",
+        "description": "This is a versatile and powerful platform for music enthusiasts. Built using Hilt for dependency injection and featuring a wide array of functionalities, including different themes, services, playlist management",
+        "url": "https://github.com/saqibandroiddeveloper/MusicPlayer",
+        "imgSrc": "src/assets/musicplayer.jpg"
       }
+
     ]
   }

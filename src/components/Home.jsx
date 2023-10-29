@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../assets/logo-removebg-preview.png";
+import me from "../assets/saqib-bg.jpg";
 
 const Home = ({ ratio }) => {
   const clientCount = useRef(null);
@@ -49,12 +49,12 @@ const Home = ({ ratio }) => {
       <section>
         <div>
           <motion.h1 {...animations.h1}>
-            Hi, I Am <br /> Mansoor Khan
+            Hi, I Am <br /> Saqib Khan
           </motion.h1>
 
           <Typewriter
             options={{
-              strings: ["A Full Stack Developer", "A Software Engineer", "A Creator"],
+              strings: ["An Android App developer", "A Software Engineer"],
               autoStart: true,
               loop: true,
               cursor: "",
@@ -63,7 +63,7 @@ const Home = ({ ratio }) => {
           />
 
           <div>
-            <a href="mailto:mkniazi.886@gmail.com">Hire Me</a>
+            <a href="mailto: m.saqib.personal007@gmail.com">Hire Me</a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>
@@ -106,7 +106,7 @@ const Home = ({ ratio }) => {
         </div>
       </section>
       <section>
-        <img src={me} alt="Mansoor" />
+        <img src={me} alt="Saqib" />
       </section>
       <BsChevronDown />
     </div>

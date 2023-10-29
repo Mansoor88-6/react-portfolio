@@ -5,7 +5,7 @@ import Work from './components/Work'
 import TimeLine from './components/TimeLine'
 import Services from './components/Services'
 import Testimonial from './components/Testimonial'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -34,7 +34,7 @@ function App() {
       <TimeLine />
       <Services />
       <Testimonial />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
       
     </>

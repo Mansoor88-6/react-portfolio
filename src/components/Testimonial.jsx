@@ -8,12 +8,12 @@ const Testimonial = () => {
     
           <section>
             <TestimonialCard
-              name={"Hilal Ahmad"}
-              feedback={"I worked with Mansoor at Seebiz pvt ltd, he is a hardworking guy who knows how to work well with the team"}
+              name={"Shahid Ibrar"}
+              feedback={"I worked with Saqib at Top Edge technologies, he is a hardworking guy who knows how to work well with the team"}
             />
     
             <TestimonialCard
-              name={"Saqib"}
+              name={"Mansoor"}
               feedback={
                 "Mansoor was my classfellow in university, we did bachelors together. he was well known for his love of coding in the class"
               }
@@ -21,7 +21,7 @@ const Testimonial = () => {
     
             <TestimonialCard
               name={"Jamshed"}
-              feedback={"Mansoor taught me how to code, from those small programs in C++ to full stack websites i learned everything from him"}
+              feedback={"Saqib taught me how to code, from those small programs in C++ to full stack websites i learned everything from him"}
             />
           </section>
         </div>
