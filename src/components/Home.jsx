@@ -49,7 +49,7 @@ const Home = ({ ratio }) => {
       <section>
         <div>
           <motion.h1 {...animations.h1}>
-            Hi, I Am <br /> Saqib Khan
+            Hi, I Am <br /> Muhammad Saqib Khan
           </motion.h1>
 
           <Typewriter
@@ -63,7 +63,7 @@ const Home = ({ ratio }) => {
           />
 
           <div>
-            <a href="mailto: m.saqib.personal007@gmail.com">Hire Me</a>
+            <a href="mailto: saqiii169@gmail.com">Hire Me</a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>
